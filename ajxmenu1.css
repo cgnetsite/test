@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu
+ Copyright (C) 2009-2016 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuHYSGZYC,.AJXCSSMenuHYSGZYC_n,.AJXCSSMenuHYSGZYC *,.AJXCSSMenuHYSGZYC_n * {box-sizing:border-box;}
+.AJXCSSMenuHYSGZYC {position:relative;z-index:100;width:100%;line-height:0;background:#292929;text-align:center;}
+.AJXCSSMenuHYSGZYC ul {position:relative;display:inline-block;margin:0;padding:0px 6px 0px 6px;list-style-type:none;}
+*+html .AJXCSSMenuHYSGZYC ul {display:inline;}
+.AJXCSSMenuHYSGZYC li {float:left;margin:0;}
+.AJXCSSMenuHYSGZYC a,.AJXCSSMenuHYSGZYC_n a {display:block;overflow:hidden;}
+.AJXCSSMenuHYSGZYC>ul>li>a {height:40px;white-space:nowrap;padding:0 16px 0 16px;font:12px "MS Serif", "New York", serif;line-height:40px;text-decoration:none;text-transform:uppercase;text-align:left;border:0;color:#ffffff;transition:color 0.3s linear;background:none;}
+.AJXCSSMenuHYSGZYC>ul>li:hover>a,.AJXCSSMenuHYSGZYC>ul>li.ajxover>a {color:#009bca;}
+@media screen and (max-width:480px) {
+.AJXCSSMenuHYSGZYC:after,.AJXCSSMenuHYSGZYC_n:after {content:'narrow';display:none;}
+.AJXCSSMenuHYSGZYC_n {position:relative;width:100%;z-index:100;padding-top:40px;background:#292929;cursor:pointer;}
+.AJXCSSMenuHYSGZYC_n:before {position:absolute;top:0;right:10px;content:"\2261";font:bold 40px Arial,Helvetica,sans-serif;line-height:40px;color:#ffffff;z-index:1;}
+.AJXCSSMenuHYSGZYC_n ul {margin:0;list-style-type:none;background:#e7e7e7;}
+.AJXCSSMenuHYSGZYC_n>ul {height:0;overflow:hidden;}
+.AJXCSSMenuHYSGZYC_n>ul.ajxover,.AJXCSSMenuHYSGZYC_n li ul{height:auto;padding:1px 1px 1px 1px;cursor:default;}
+.AJXCSSMenuHYSGZYC_n li {float:none;margin:1px 0 0 0;display:none;}
+.AJXCSSMenuHYSGZYC_n li:first-child {margin-top:0px;}
+.AJXCSSMenuHYSGZYC_n .ajxover li {display:block;}
+.AJXCSSMenuHYSGZYC_n li a {height:auto;white-space:normal;padding:21px 8px 22px 8px;font:12px "MS Serif", "New York", serif;line-height:12px;text-decoration:none;text-transform:uppercase;text-align:center;border:0;color:#292929;background:#ffffff;}
+.AJXCSSMenuHYSGZYC_n li:hover>a,.AJXCSSMenuHYSGZYC_n li.ajxover>a {color:#ffffff;background:#009bca;}
+}

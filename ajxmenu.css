@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu
+ Copyright (C) 2009-2016 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuWTBTEUC,.AJXCSSMenuWTBTEUC_n,.AJXCSSMenuWTBTEUC *,.AJXCSSMenuWTBTEUC_n * {box-sizing:border-box;}
+.AJXCSSMenuWTBTEUC {position:relative;z-index:100;width:100%;line-height:0;background:#292929;text-align:center;}
+.AJXCSSMenuWTBTEUC ul {position:relative;display:inline-block;margin:0;padding:0px 6px 0px 6px;list-style-type:none;}
+*+html .AJXCSSMenuWTBTEUC ul {display:inline;}
+.AJXCSSMenuWTBTEUC li {float:left;margin:0;}
+.AJXCSSMenuWTBTEUC a,.AJXCSSMenuWTBTEUC_n a {display:block;overflow:hidden;}
+.AJXCSSMenuWTBTEUC>ul>li>a {height:40px;white-space:nowrap;padding:0 16px 0 16px;font:12px "MS Serif", "New York", serif;line-height:40px;text-decoration:none;text-transform:uppercase;text-align:left;border:0;color:#ffffff;transition:color 0.3s linear;background:none;}
+.AJXCSSMenuWTBTEUC>ul>li:hover>a,.AJXCSSMenuWTBTEUC>ul>li.ajxover>a {color:#009bca;}
+.AJXCSSMenuWTBTEUC #AJXCSSMenuWTBTEUCitem_0 {background-color:#0999ff;color:#ffffff;}
+.AJXCSSMenuWTBTEUC li:hover>#AJXCSSMenuWTBTEUCitem_0,.AJXCSSMenuWTBTEUC li.ajxover>#AJXCSSMenuWTBTEUCitem_0 {background-color:#ffa900;color:#000000;}
+.AJXCSSMenuWTBTEUC #AJXCSSMenuWTBTEUCitem_0.ajxcur,.AJXCSSMenuWTBTEUC li.ajxover>#AJXCSSMenuWTBTEUCitem_0.ajxcur {background-color:#ffa900;color:#000000;}
+@media screen and (max-width:480px) {
+.AJXCSSMenuWTBTEUC:after,.AJXCSSMenuWTBTEUC_n:after {content:'narrow';display:none;}
+.AJXCSSMenuWTBTEUC_n {position:relative;width:100%;z-index:100;padding-top:40px;background:#292929;cursor:pointer;}
+.AJXCSSMenuWTBTEUC_n:before {position:absolute;top:0;right:10px;content:"\2261";font:bold 40px Arial,Helvetica,sans-serif;line-height:40px;color:#ffffff;z-index:1;}
+.AJXCSSMenuWTBTEUC_n ul {margin:0;list-style-type:none;background:#e7e7e7;}
+.AJXCSSMenuWTBTEUC_n>ul {height:0;overflow:hidden;}
+.AJXCSSMenuWTBTEUC_n>ul.ajxover,.AJXCSSMenuWTBTEUC_n li ul{height:auto;padding:1px 1px 1px 1px;cursor:default;}
+.AJXCSSMenuWTBTEUC_n li {float:none;margin:1px 0 0 0;display:none;}
+.AJXCSSMenuWTBTEUC_n li:first-child {margin-top:0px;}
+.AJXCSSMenuWTBTEUC_n .ajxover li {display:block;}
+.AJXCSSMenuWTBTEUC_n li a {height:auto;white-space:normal;padding:21px 8px 22px 8px;font:12px "MS Serif", "New York", serif;line-height:12px;text-decoration:none;text-transform:uppercase;text-align:center;border:0;color:#292929;background:#ffffff;}
+.AJXCSSMenuWTBTEUC_n li:hover>a,.AJXCSSMenuWTBTEUC_n li.ajxover>a {color:#ffffff;background:#009bca;}
+}
